@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jiyH2erefx4uLpVOM7Qr5k4VYPdJ9Arnuo5AcAvSFBg=",
+  "Hash": "S0zuvN6K/NfR0anlr4QeggD4hENmmXhUfA2ZOC61aYU=",
   "Source": "CampaignMediaPlanner",
   "BasePath": "/",
   "Mode": "Root",
@@ -7862,6 +7862,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/wwwroot/css/styles.css",
+      "SourceId": "CampaignMediaPlanner",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
       "Identity": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/wwwroot/favicon.png",

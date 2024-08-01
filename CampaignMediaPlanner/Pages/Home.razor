@@ -1,46 +1,49 @@
 ﻿@page "/"
 @using CampaignMediaPlanner.Services
 @inject GoalSeekService GoalSeek
-<PageTitle>Home</PageTitle>
 
-<h3>Campaign Media Planner</h3>
+<div class="container">
+    <h3>Campaign Media Planner</h3>
 
-<EditForm Model="@parameters" OnValidSubmit="@Calculate">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+    <EditForm Model="@parameters" OnValidSubmit="@Calculate">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
 
-    <div>
-        <label>Total Campaign Budget (Z): </label>
-        <InputNumber @bind-Value="parameters.TotalBudget" />
-    </div>
-    <div>
-        <label>Agency Fee Percentage (Y1): </label>
-        <InputNumber @bind-Value="parameters.AgencyFeePercentage" />
-    </div>
-    <div>
-        <label>Third-Party Tool Fee Percentage (Y2): </label>
-        <InputNumber @bind-Value="parameters.ThirdPartyFeePercentage" />
-    </div>
-    <div>
-        <label>Fixed Costs for Agency Hours: </label>
-        <InputNumber @bind-Value="parameters.FixedCosts" />
-    </div>
-    <div>
-        <label>Ad Spend for Other Ads (X_other): </label>
-        <InputNumber @bind-Value="parameters.OtherAdSpend" />
-    </div>
-    <div>
-        <label>Initial Guess for Ad Budget: </label>
-        <InputNumber @bind-Value="parameters.InitialGuess" />
-    </div>
+        <div class="form-group">
+            <label>Total Campaign Budget (Z):</label>
+            <InputNumber @bind-Value="parameters.TotalBudget" />
+        </div>
+        <div class="form-group">
+            <label>Agency Fee Percentage (Y1):</label>
+            <InputNumber @bind-Value="parameters.AgencyFeePercentage" />
+        </div>
+        <div class="form-group">
+            <label>Third-Party Tool Fee Percentage (Y2):</label>
+            <InputNumber @bind-Value="parameters.ThirdPartyFeePercentage" />
+        </div>
+        <div class="form-group">
+            <label>Fixed Costs for Agency Hours:</label>
+            <InputNumber @bind-Value="parameters.FixedCosts" />
+        </div>
+        <div class="form-group">
+            <label>Ad Spend for Other Ads (X_other):</label>
+            <InputNumber @bind-Value="parameters.OtherAdSpend" />
+        </div>
+        <div class="form-group">
+            <label>Initial Guess for Ad Budget:</label>
+            <InputNumber @bind-Value="parameters.InitialGuess" />
+        </div>
 
-    <button type="submit">Calculate</button>
-</EditForm>
+        <button type="submit">Calculate</button>
+    </EditForm>
 
-@if (result.HasValue)
-{
-    <p>Calculated Ad Budget: @result.Value</p>
-}
+    @if (result.HasValue)
+    {
+        <div class="result">
+            <p>Calculated Ad Budget: @result.Value</p>
+        </div>
+    }
+</div>
 
 @code {
     private Parameters parameters = new Parameters();

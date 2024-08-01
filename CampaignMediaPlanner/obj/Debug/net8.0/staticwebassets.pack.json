@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
       "Id": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
