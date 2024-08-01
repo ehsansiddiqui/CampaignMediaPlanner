@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampaignMediaPlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c4ab10bbc60dee928c1698dc3159c505687df1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampaignMediaPlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampaignMediaPlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

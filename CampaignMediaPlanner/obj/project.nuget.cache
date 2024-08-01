@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Snr7kgOU/Q=",
+  "dgSpecHash": "FNM48PrAX4g=",
   "success": true,
-  "projectFilePath": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
+  "projectFilePath": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
   "expectedPackageFiles": [
     "/Users/ehsansiddique/.nuget/packages/microsoft.aspnetcore.authorization/8.0.7/microsoft.aspnetcore.authorization.8.0.7.nupkg.sha512",
     "/Users/ehsansiddique/.nuget/packages/microsoft.aspnetcore.components/8.0.7/microsoft.aspnetcore.components.8.0.7.nupkg.sha512",

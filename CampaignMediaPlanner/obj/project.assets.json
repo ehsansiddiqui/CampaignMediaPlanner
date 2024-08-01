@@ -2064,11 +2064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
+      "projectUniqueName": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
       "projectName": "CampaignMediaPlanner",
-      "projectPath": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
+      "projectPath": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/CampaignMediaPlanner.csproj",
       "packagesPath": "/Users/ehsansiddique/.nuget/packages/",
-      "outputPath": "/Users/ehsansiddique/CampaignMediaPlanner/obj/",
+      "outputPath": "/Users/ehsansiddique/CampaignMediaPlanner/CampaignMediaPlanner/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ehsansiddique/.nuget/NuGet/NuGet.Config"
