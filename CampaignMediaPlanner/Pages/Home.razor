@@ -10,15 +10,15 @@
         <ValidationSummary />
 
         <div class="form-group">
-            <label>Total Campaign Budget (Z):</label>
+            <label>Total Campaign Budget:</label>
             <InputNumber @bind-Value="parameters.TotalBudget" />
         </div>
         <div class="form-group">
-            <label>Agency Fee Percentage (Y1):</label>
+            <label>Agency Fee Percentage:</label>
             <InputNumber @bind-Value="parameters.AgencyFeePercentage" />
         </div>
         <div class="form-group">
-            <label>Third-Party Tool Fee Percentage (Y2):</label>
+            <label>Third-Party Tool Fee Percentage:</label>
             <InputNumber @bind-Value="parameters.ThirdPartyFeePercentage" />
         </div>
         <div class="form-group">
@@ -26,7 +26,7 @@
             <InputNumber @bind-Value="parameters.FixedCosts" />
         </div>
         <div class="form-group">
-            <label>Ad Spend for Other Ads (X_other):</label>
+            <label>Ad Spend for Other Ads:</label>
             <InputNumber @bind-Value="parameters.OtherAdSpend" />
         </div>
         <div class="form-group">
@@ -40,7 +40,7 @@
     @if (result.HasValue)
     {
         <div class="result">
-            <p>Calculated Ad Budget: @result.Value</p>
+            <p>Calculated Ad Budget: @result.Value.ToString("F2")</p>
         </div>
     }
 </div>
@@ -64,8 +64,10 @@
 
     private double Equation(double x)
     {
-        double X = x + parameters.OtherAdSpend;
-        return X + parameters.TotalBudget * X + parameters.AgencyFeePercentage * X + parameters.ThirdPartyFeePercentage * (x + parameters.OtherAdSpend) + parameters.FixedCosts;
+        double totalAdSpend = x + parameters.OtherAdSpend;
+        return totalAdSpend + parameters.AgencyFeePercentage * totalAdSpend + 
+               parameters.ThirdPartyFeePercentage * totalAdSpend + 
+               parameters.FixedCosts;
     }
 
     private class Parameters

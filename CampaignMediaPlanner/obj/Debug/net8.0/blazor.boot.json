@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CampaignMediaPlanner",
   "resources": {
-    "hash": "sha256-vedsXz4hOHrDTrrbjN05FDPiJQhinGt6t2+bDX9ZYj4=",
+    "hash": "sha256-JV0S+x8mNcaReubzoyTql6cd1W/qdY5qDBC06zm5uG0=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.9e85rbs813.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "CampaignMediaPlanner.wasm": "sha256-Tt8JfRVRRJVFuEKgI74qCXLcRyunmPmZoSHjP5LZ+1k="
+      "CampaignMediaPlanner.wasm": "sha256-Z2JqKoYie6oXb02hg0MVCD+DagrxCrsVpABwWISXZN4="
     },
     "pdb": {
-      "CampaignMediaPlanner.pdb": "sha256-FOkHErDHAfr2RlyhzDmN9STTewF/xi0b4w3xrd2biYQ="
+      "CampaignMediaPlanner.pdb": "sha256-Y/3uKDeZ/MnMwfR/bFVax5r8TdZwj7DIGD3EwsQazMQ="
     }
   },
   "cacheBootResources": true,

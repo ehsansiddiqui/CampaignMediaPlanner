@@ -23,7 +23,7 @@ namespace CampaignMediaPlanner.Services
                 throw new Exception("Goal Seek did not converge.");
             }
 
-            return guess;
+            return Math.Round(guess, 2);
         }
 
         private double Derivative(Func<double, double> equation, double x, double h = 0.0001)
